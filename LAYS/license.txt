@@ -1,0 +1,11 @@
+Model Information:
+* title:	Lays Chips packet.
+* source:	https://sketchfab.com/3d-models/lays-chips-packet-2342efc8c65a431db89747964e96f929
+* author:	levb039008 (https://sketchfab.com/levb039008)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Lays Chips packet." (https://sketchfab.com/3d-models/lays-chips-packet-2342efc8c65a431db89747964e96f929) by levb039008 (https://sketchfab.com/levb039008) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
