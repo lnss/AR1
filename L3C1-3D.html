@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- this is necessary for calling the programme Aframe -->
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    
+    <!-- the following is necessary only for AR -->
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+ 
+</head>
+
+<body>
+    <a-scene embedded arjs>
+        <a-assets>
+            <a-asset-item id="village" responseType="arraybuffer" src="/LAYS/scene.gltf"></a-asset-item>
+            <a-asset-item id="village1" responseType="arraybuffer" src="/MUG/scene.gltf"></a-asset-item>
+        </a-assets>
+
+        <a-marker type="pattern" url="pattern-a.patt">
+            <a-entity gltf-model="#village" position="0 0.2 0" rotation="0 180 0" scale="0.4 0.4 0.4"></a-entity>
+        </a-marker>
+
+        <a-marker type="pattern" url="pattern-b.patt">
+            <a-entity gltf-model="#village1" position="0 0.2 0" rotation="0 180 0" scale="0.4 0.4 0.4"></a-entity>
+        </a-marker>
+
+        <a-entity camera position="0 0 0"></a-entity>
+    </a-scene>
+
+</body>
+
+</html>
